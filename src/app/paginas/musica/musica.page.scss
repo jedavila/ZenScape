@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Roboto';
+    text-transform: none;
+    font-size: 12px;
+}
+
+.text{
+    padding-left: 3%;
+}
+.musicPlaylist{
+    text-align: center;
+}
+.bActivated{
+    color: black;
+    --background: #62B5CA;
+}
+.bDisactivated{
+    color: black;
+    --background: #CBE8FB;
+}
+.verMas{
+    text-align: right;
+}
+
+.esfera{
+    width: 52px;
+    height: 52px;
+    background: #62B5CA;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.esfera img{
+    width: 30px;
+}
+
+

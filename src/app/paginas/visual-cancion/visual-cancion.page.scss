@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+*{
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.nomSong{
+    font-size: 24px;
+}
+hr {
+    background: black; 
+    align-self: center;
+}
+div#timeline {
+	position: relative;
+	margin: 0 auto;
+	width: 92.5%;
+}
+p {
+    color: darken(white, 30%);
+    position: absolute;
+    top: -10px;
+    
+    &#current-time {
+        left: 0;
+    }
+    &#total-time {
+        right: 0;
+    }
+}
+div.slider {
+    background-color: darken(white, 50%);
+    border-radius: 2px;
+    cursor: pointer;
+    height: 2px;
+    position: relative;
+    width: 100%;
+    
+    div.progress {
+        background-color: black;
+        height: 100%;
+        pointer-events: none;
+        position: absolute;
+        width: 0;
+    }
+}
+
+.content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+}
+.portada{
+    width: 150px;
+    height: 150px;
+    background-color:  #293241;
+    margin: 50px 25px 0 15%;
+}
+
+.ondas{
+    width: 100%;
+    height: 50px;
+    background-color:  #293241;
+}
+.esfera{
+    width: 42px;
+    height: 42px;
+    background: #62B5CA;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.esfera ion-icon{
+    color: white;
+    width: 100%;
+    height: 80%;
+}
+.iconplay{
+    padding-left: 10%;
+}
+.grid{
+    padding-left: 15%;
+}
+
+.fabButton{
+    --background: #62B5CA
+}
+

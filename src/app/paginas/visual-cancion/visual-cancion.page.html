@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/musica" color="primary"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen class="ion-padding">
+  <div class="content">
+    <div class="portada"></div>
+    <h1 class="nomSong">Nombre Cancion</h1>
+    <h3>Autor</h3>
+    <div class="ondas">
+      <span>hola</span>
+    </div>
+  </div>
+
+  <div id="timeline">
+    <p id="current-time">00:00</p>
+    <p id="total-time">03:14</p>
+
+    <div class="slider" data-direction="horizontal">
+    </div>
+
+  </div>
+  
+  
+
+  <ion-grid class='grid'>
+    <ion-row>
+      <ion-col>
+        <div class="esfera retroceder">
+          <ion-icon name="play-skip-back-outline"></ion-icon>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="esfera play">
+          <ion-icon class="iconplay" name="play-outline"></ion-icon>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="esfera avanzar">
+          <ion-icon name="play-skip-forward-outline"></ion-icon>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+    <ion-fab-button class="fabButton">
+      <img src="../../../assets/icon/Cast.svg">
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
+<app-footer></app-footer>

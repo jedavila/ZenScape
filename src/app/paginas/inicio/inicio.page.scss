@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.inicioSesion{
+    padding-top: 25%;
+    text-align: center;
+    font-family: 'Roboto';
+    
+}
+ion-button {
+    text-transform: none;
+}
+
+hr {background: black; }
+
+.logo{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.bienvenido{
+    font-size: 18px;
+}
+.text{ 
+    font-size: 12px;
+
+}
+
+.boton{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    --border-radius: 7px;
+    width: 100%;
+    
+}
+.FB{
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #FFFFFF;
+    --background: #3F5D94;
+}
+.GL{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-style: normal;
+    font-weight: normal;
+    --background: white;
+    color: #545454;
+    --border-color: #C4C4C4;
+    box-sizing: border-box;
+}
+.icon{
+    padding-right: 10px;
+}
+.grid{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.rg{
+    width: auto;
+    color:white;
+    --background: black;
+}
+
+.terminos{
+    color:#62B5CA;
+}
+ 
