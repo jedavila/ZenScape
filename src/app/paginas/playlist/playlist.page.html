@@ -8,37 +8,41 @@
   <h1 class="text">Playlist 1</h1>
   <div class="contenedor">
     <div class="canciones">
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
+      <ion-list *ngFor = "let song of songs; let i = index">
+        <ion-item>
+          <ion-label>
+            {{i+1}}. {{song.Nombre}} 
+            <span slot="end">{{song.Duracion}}</span>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      
     </div>
   </div>
   <h1 class="text">Playlist 2</h1>
   <div class="contenedor">
     <div class="canciones">
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
+      <ion-list *ngFor = "let song of songs; let i = index">
+        <ion-item>
+          <ion-label>
+            {{i+1}}. {{song.Nombre}} 
+            <span slot="end">{{song.Duracion}}</span>
+          </ion-label>
+        </ion-item>
+      </ion-list>
     </div>
   </div>
   <h1 class="text">Playlist 3</h1>
   <div class="contenedor">
     <div class="canciones">
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
-      <p>1. Nombre De La Cancion 3:14</p>
+      <ion-list *ngFor = "let song of songs; let i = index">
+        <ion-item>
+          <ion-label>
+            {{i+1}}. {{song.Nombre}} 
+            <span slot="end">{{song.Duracion}}</span>
+          </ion-label>
+        </ion-item>
+      </ion-list>
     </div>
   </div>
  

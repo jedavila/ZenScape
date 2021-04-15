@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Roboto';
+    text-transform: none;
+}
+
+.foto{
+    margin-top: 80%;
+    padding: 0 5%;
+}
+
+.esfera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #62B5CA; 
+}
+
+.cuadrado {
+    height: 115px;
+    width: 75px;
+    border-radius: 7px;
+    padding: 10%;
+}
+
+.texto {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.grid {
+    padding: 0 2%;
+}

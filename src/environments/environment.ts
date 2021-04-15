@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase:{
+    apiKey: "AIzaSyC8YXvuPNs8nMSPKbJdwvPeDSkLXhZ-X2k",
+    authDomain: "zenscape-2021.firebaseapp.com",
+    databaseURL: "https://zenscape-2021-default-rtdb.firebaseio.com",
+    projectId: "zenscape-2021",
+    storageBucket: "zenscape-2021.appspot.com",
+    messagingSenderId: "1031599773605",
+    appId: "1:1031599773605:web:b77b02905afe1d99d63a4c"
+  }
 };
 
 /*

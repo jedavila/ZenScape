@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Roboto';
+    text-transform: none;
+}
+
+.texto-titulo {
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 8% 5% 5% 5%;
+}
+.contenedor-diario{
+    margin: 0 5%;
+    height: 100px;
+    width: 90%;
+    border-radius: 7px;
+    background-color: #1B4866;
+    color: white;
+}
+.texto-diario{
+    padding: 5% 0 0 5%;
+    font-size: small;
+}
+
+.contenedor-diario-ejemplo{
+    margin: 0 5%;
+    height: 110px;
+    width: 90%;
+    border-radius: 7px;
+    background-color: #CBE8FB;
+    color: black;
+    position: relative;
+    top:0;
+    left:0;
+}
+.texto-diario-anotacion{
+    padding: 2% 8%;
+    font-size: small;
+}
+
+.Emoji{
+    position: absolute;
+    top:0;
+    right:0;
+    width: 50px;
+    height: 80px;
+}
+a{
+    text-decoration-line: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.esfera img{
+    position: absolute;
+    width: 22px;
+    height: 29px;
+}
+.foto{
+    width: 15%;
+}
+ion-title{
+    color: white;
+    font-size: 12px;
+
+}
+.iconMenu{
+    font-size: 4vh;
+    border: 4px;
+    color: white;
+}
+ion-toolbar{
+    --background: #293241;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 29px;
+    background: #62B5CA;
+    border-radius: 7px;
+}
+
+.fondoCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 45px;
+    background: #62B5CA;
+    border-radius: 7px;
+}
+
+ion-tab-bar{
+    --background: #293241;
+    position: fixed-bottom;
+}

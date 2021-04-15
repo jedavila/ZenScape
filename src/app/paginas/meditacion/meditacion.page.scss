@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Roboto';
+    text-transform: none;
+    font-size: 12px;
+}
+.text{
+    padding-left: 5%;
+}
+.musicPlaylist{
+    text-align: center;
+}
+.bActivated{
+    color: black;
+    --background: #62B5CA;
+}
+.bDisactivated{
+    color: black;
+    --background: #CBE8FB;
+}
+
+.contenedor{
+    border: 1px solid #293241;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5% 5% 0;
+
+}
+
+.contenedor-titulo {
+    margin: 30% 5% 0 0;
+
+}
+
+.texto-titulo {
+    color: #1B4866;
+    font-size: x-large;
+}
+
+
+.contenedor-esferas {
+    width: 100%;
+    margin-top: 10%;
+    align-items: center;
+    text-align: -webkit-center;
+}
+
+
+.esfera1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    opacity: 0.8;
+    background: #CBE8FB;
+}
+.esfera2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+    height: 250px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #62B5CA;
+}
+
+.esfera3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #1B4866;
+}
+
+.texto-esfera {
+    font-size: xx-large;
+    font-weight: bold;    
+    color: white;
+}
+
+
+
+
+.foto{
+    padding-left: 25%;
+}
+.esfera{
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #62B5CA; 
+    
+}
+.esfera img{
+    position: absolute;
+    width: 22px;
+    height: 29px;
+}
+.foto{
+    width: 15%;
+}
+ion-title{
+    color: white;
+    font-size: 12px;
+
+}
+.iconMenu{
+    font-size: 4vh;
+    border: 4px;
+    color: white;
+}
+ion-toolbar{
+    --background: #293241;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 29px;
+    background: #62B5CA;
+    border-radius: 7px;
+}
+
+.fondoCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 45px;
+    background: #62B5CA;
+    border-radius: 7px;
+}
+
+ion-tab-bar{
+    --background: #293241;
+    position: fixed-bottom;
+}

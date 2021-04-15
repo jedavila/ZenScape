@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Roboto';
+    text-transform: none;
+}
+
+.buscar{
+    height: 75px;
+    width: 80%;
+    margin: 10% 10% 10% 10%;
+    background-color: #CBE8FB;
+    border-radius: 7px;
+    color:black;
+}
+
+.texto-buscar {
+    padding: 5px 5px;
+    font-weight: bold;
+}
+
+.cuadrado-frase {
+    height: 130px;
+    width: 130px;
+    background-color: #1B4866;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.grid{
+    text-align: -webkit-center;
+}
+
+.a{
+    text-decoration-line: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.esfera img{
+    position: absolute;
+    width: 22px;
+    height: 29px;
+}
+.foto{
+    width: 15%;
+}
+ion-title{
+    color: white;
+    font-size: 12px;
+
+}
+.iconMenu{
+    font-size: 4vh;
+    border: 4px;
+    color: white;
+}
+ion-toolbar{
+    --background: #293241;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 29px;
+    background: #62B5CA;
+    border-radius: 7px;
+}
+
+.fondoCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 45px;
+    background: #62B5CA;
+    border-radius: 7px;
+}
+
+ion-tab-bar{
+    --background: #293241;
+    position: fixed-bottom;
+}

@@ -31,6 +31,30 @@ const routes: Routes = [
     path: 'log-in',
     loadChildren: () => import('./paginas/log-in/log-in.module').then( m => m.LogInPageModule)
   },
+  {
+    path: 'emociones',
+    loadChildren: () => import('./paginas/emociones/emociones.module').then( m => m.EmocionesPageModule)
+  },
+  {
+    path: 'diario',
+    loadChildren: () => import('./paginas/diario/diario.module').then( m => m.DiarioPageModule)
+  },
+  {
+    path: 'frases',
+    loadChildren: () => import('./paginas/frases/frases.module').then( m => m.FrasesPageModule)
+  },
+  {
+    path: 'meditacion',
+    loadChildren: () => import('./paginas/meditacion/meditacion.module').then( m => m.MeditacionPageModule)
+  },
+  {
+    path: 'frases-visualizacion',
+    loadChildren: () => import('./paginas/frases-visualizacion/frases-visualizacion.module').then( m => m.FrasesVisualizacionPageModule)
+  },
+  {
+    path: 'diario-visualizacion',
+    loadChildren: () => import('./paginas/diario-visualizacion/diario-visualizacion.module').then( m => m.DiarioVisualizacionPageModule)
+  },
 ];
 
 @NgModule({
